@@ -198,8 +198,6 @@
                     <li><strong>Battery:</strong> 3582mAh</li>
                 </ul>
             </div>
-
-            <!-- iPhone 16 Pro Max -->
             <div class="model">
                 <h3>iPhone 16 Pro Max</h3>
                 <img src="iphone16-pro-max.jpg" alt="iPhone 16 Pro Max">
