@@ -3,200 +3,251 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samsung Galaxy S21 Series - [RAFII HAMIS]</title>
+    <title>iPhone 16 Series</title>
     <style>
+        /* General Reset */
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: #f4f4f9;
             color: #333;
         }
 
+        /* Header Styling */
         header {
-            background-color: #0a74da;
+            background: linear-gradient(90deg, #1a1a1a, #333333);
             color: white;
-            padding: 1rem 0;
             text-align: center;
+            padding: 2rem 1rem;
         }
 
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        /* Main Content */
         main {
-            padding: 20px;
-            max-width: 900px;
-            margin: auto;
+            padding: 2rem;
         }
 
-        h1, h2 {
-            color: #0a74da;
+        .intro {
+            text-align: center;
+            margin-bottom: 2rem;
         }
 
-        ul, ol {
-            padding-left: 20px;
+        .intro img {
+            width: 80%;
+            border-radius: 10px;
+            margin-bottom: 1rem;
         }
 
-        ul {
-            list-style-type: none;
+        /* Models Section */
+        .models h2 {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .model {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+        }
+
+        .model img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+
+        .model h3 {
+            font-size: 1.5rem;
+            color: #555;
+            margin-bottom: 1rem;
+        }
+
+        .model ul {
+            list-style: none;
             padding: 0;
         }
 
-        ul li {
-            margin: 5px 0;
+        .model li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #eee;
         }
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            background-color: white;
+        .model li:last-child {
+            border-bottom: none;
         }
 
-        table, th, td {
-            border: 1px solid #ddd;
-            text-align: left;
+        /* Colors Section */
+        .colors {
+            margin-top: 2rem;
+            text-align: center;
         }
 
-        th, td {
-            padding: 10px;
+        .colors h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
         }
 
-        th {
-            background-color: #f0f0f0;
+        .colors div {
+            margin-bottom: 1.5rem;
         }
 
-        img {
-            display: block;
-            max-width: 100%;
-            height: auto;
-            margin: 20px auto;
+        .colors ul {
+            list-style: none;
+            padding: 0;
         }
 
-        a {
-            color: #0a74da;
+        .colors li {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: #00bcd4;
             text-decoration: none;
         }
 
-        a:hover {
+        footer a:hover {
             text-decoration: underline;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 30px;
-            padding: 10px;
-            background-color: #0a74da;
-            color: white;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Samsung Galaxy S21 5G Series</h1>
+        <h1>Welcome to the iPhone 16 Series</h1>
+        <p>Experience the pinnacle of innovation and design with the iPhone 16 lineup.</p>
     </header>
 
     <main>
-        <section>
-            <p>The Samsung Galaxy S21 5G is a flagship phone from Samsung, released in late January 2021. The series includes:</p>
-            <ul>
-                <li>Galaxy S21+ 5G</li>
-                <li>Galaxy S21 Ultra 5G</li>
-                <li>Galaxy S21 FE 5G</li>
+        <section class="intro">
+            <img src="iphone16-series.jpg" alt="iPhone 16 Series" class="hero-image">
+            <p>The iPhone 16 is the latest release in Apple's flagship series, launched on September 20, 2024. Packed with innovative features such as a shutter button, advanced AI, and OS upgrades, it redefines the smartphone experience. The lineup includes the iPhone 16, iPhone 16 Plus, iPhone 16 Pro, and iPhone 16 Pro Max.</p>
+        </section>
+
+        <section class="models">
+            <h2>Specifications</h2>
+
+            <!-- iPhone 16 -->
+            <div class="model">
+                <h3>iPhone 16</h3>
+                <img src="iphone16.jpg" alt="iPhone 16">
+                <ul>
+                    <li><strong>Weight:</strong> 170g</li>
+                    <li><strong>Dimensions:</strong> 147.6 x 71.6 x 7.8mm</li>
+                    <li><strong>IP Rating:</strong> IP 68</li>
+                    <li><strong>Display:</strong> 6.1-inch OLED</li>
+                    <li><strong>Chipset:</strong> A18 (3nm)</li>
+                    <li><strong>RAM:</strong> 8GB</li>
+                    <li><strong>Storage:</strong> 128GB/256GB/512GB</li>
+                    <li><strong>Rear Cameras:</strong> 48MP + 12MP</li>
+                    <li><strong>Battery:</strong> 3561mAh</li>
+                </ul>
+            </div>
+
+            <!-- iPhone 16 Plus -->
+            <div class="model">
+                <h3>iPhone 16 Plus</h3>
+                <img src="iphone16-plus.jpg" alt="iPhone 16 Plus">
+                <ul>
+                    <li><strong>Weight:</strong> 199g</li>
+                    <li><strong>Dimensions:</strong> 160.9 x 77.8 x 7.8mm</li>
+                    <li><strong>IP Rating:</strong> IP 68</li>
+                    <li><strong>Display:</strong> 6.7-inch OLED</li>
+                    <li><strong>Chipset:</strong> A18 (3nm)</li>
+                    <li><strong>RAM:</strong> 8GB</li>
+                    <li><strong>Storage:</strong> 128GB/256GB/512GB</li>
+                    <li><strong>Rear Cameras:</strong> 48MP + 12MP</li>
+                    <li><strong>Battery:</strong> 4674mAh</li>
+                </ul>
+            </div>
+
+            <!-- iPhone 16 Pro -->
+            <div class="model">
+                <h3>iPhone 16 Pro</h3>
+                <img src="iphone16-pro.jpg" alt="iPhone 16 Pro">
+                <ul>
+                    <li><strong>Weight:</strong> 199g</li>
+                    <li><strong>Dimensions:</strong> 149.6 x 71.5 x 8.25mm</li>
+                    <li><strong>IP Rating:</strong> IP 68</li>
+                    <li><strong>Display:</strong> 6.3-inch OLED</li>
+                    <li><strong>Chipset:</strong> A18 Pro (3nm)</li>
+                    <li><strong>RAM:</strong> 8GB</li>
+                    <li><strong>Storage:</strong> 128GB/256GB/512GB</li>
+                    <li><strong>Rear Cameras:</strong> 48MP + 12MP + 48MP</li>
+                    <li><strong>Battery:</strong> 3582mAh</li>
+                </ul>
+            </div>
+
+            <!-- iPhone 16 Pro Max -->
+            <div class="model">
+                <h3>iPhone 16 Pro Max</h3>
+                <img src="iphone16-pro-max.jpg" alt="iPhone 16 Pro Max">
+                <ul>
+                    <li><strong>Weight:</strong> 227g</li>
+                    <li><strong>Dimensions:</strong> 163.0 x 77.6 x 8.25mm</li>
+                    <li><strong>IP Rating:</strong> IP 68</li>
+                    <li><strong>Display:</strong> 6.9-inch OLED</li>
+                    <li><strong>Chipset:</strong> A18 Pro (3nm)</li>
+                    <li><strong>RAM:</strong> 8GB</li>
+                    <li><strong>Storage:</strong> 256GB/512GB</li>
+                    <li><strong>Rear Cameras:</strong> 48MP + 12MP + 48MP</li>
+                    <li><strong>Battery:</strong> 4685mAh</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="colors">
+            <h2>Available Colors</h2>
+            <div>
+                <h3>iPhone 16 and 16 Plus</h3>
+                <ul>
+                    <li>Midnight</li>
+                    <li>Silver</li>
+                    <li>Blue</li>
+                    <li>Red</li>
+                    <li>Yellow</li>
+                    <li>Pink</li>
+                </ul>
+            </div>
+            <div>
+                <h3>iPhone 16 Pro and 16 Pro Max</h3>
+                <ul>
+                    <li>Space Black</li>
+                    <li>Silver</li>
+                    <li>Gold</li>
+                    <li>Deep Purple</li>
+                    <li>Purple</li>
             </ul>
-            <p>The series was officially unveiled on January 14, 2021, and released on January 29, 2021, in most countries, including the UK, US, and Australia. Pricing started at:</p>
-            <ul>
-                <li>$799.99 for the Galaxy S21</li>
-                <li>$999.99 for the Galaxy S21+</li>
-                <li>$1,199.99 for the Galaxy S21 Ultra</li>
-            </ul>
-        </section>
+        </div>
+    </section>
+</main>
 
-        <section>
-            <h2>Specifications Overview</h2>
-            <p>The Galaxy S21 series came with both Snapdragon and Exynos processors. Snapdragon processors were sold in most Asian countries (except Korea), while Exynos processors were sold internationally, including Korea. Below are the specifications:</p>
-            <table>
-                <tr>
-                    <th>Model</th>
-                    <th>Processor</th>
-                    <th>Rear Camera</th>
-                    <th>Front Camera</th>
-                </tr>
-                <tr>
-                    <td>Galaxy S21</td>
-                    <td>Exynos 2100 or Snapdragon 888 (5nm)</td>
-                    <td>64MP</td>
-                    <td>10MP</td>
-                </tr>
-                <tr>
-                    <td>Galaxy S21+</td>
-                    <td>Exynos 2100 or Snapdragon 888 (5nm)</td>
-                    <td>64MP</td>
-                    <td>10MP</td>
-                </tr>
-                <tr>
-                    <td>Galaxy S21 Ultra</td>
-                    <td>Exynos 2100 or Snapdragon 888 (5nm)</td>
-                    <td>108MP</td>
-                    <td>40MP</td>
-                </tr>
-            </table>
-            <img src="samsung_Galaxy_S21.jpg" alt="Samsung Galaxy S21 Series" />
-            <p>Learn more on <a href="https://www.samsung.com">Samsung's official website</a>.</p>
-        </section>
-
-        <section>
-            <h2>Detailed Specifications</h2>
-            <h3>Galaxy S21</h3>
-            <ol>
-                <li>Weight: 169g</li>
-                <li>Dimensions: 151.7 x 71.2 x 7.9mm</li>
-                <li>IP Rating: IP68 (Up to 1.5m for 30 minutes)</li>
-                <li>Display Size: 6.2 inches</li>
-                <li>Resolution: FHD+ (2400x1080 pixels)</li>
-                <li>Refresh Rate: 120Hz</li>
-                <li>Chipset: Snapdragon 888 / Exynos 2100 (5nm)</li>
-                <li>RAM: 8GB</li>
-                <li>Storage: 128GB / 256GB</li>
-                <li>Rear Cameras: 12MP + 64MP + 12MP</li>
-                <li>Front Camera: 10MP</li>
-                <li>Battery: 4,000mAh</li>
-            </ol>
-
-            <h3>Galaxy S21+</h3>
-            <ol>
-                <li>Weight: 200g</li>
-                <li>Dimensions: 161.5 x 75.6 x 7.8mm</li>
-                <li>IP Rating: IP68 (Up to 1.5m for 30 minutes)</li>
-                <li>Display Size: 6.7 inches</li>
-                <li>Resolution: FHD+ (2400x1080 pixels)</li>
-                <li>Refresh Rate: 120Hz</li>
-                <li>Chipset: Snapdragon 888 / Exynos 2100 (5nm)</li>
-                <li>RAM: 8GB</li>
-                <li>Storage: 128GB / 256GB</li>
-                <li>Rear Cameras: 12MP + 64MP + 12MP</li>
-                <li>Front Camera: 10MP</li>
-                <li>Battery: 4,800mAh</li>
-            </ol>
-
-            <h3>Galaxy S21 Ultra</h3>
-            <ol>
-                <li>Weight: 227g</li>
-                <li>Dimensions: 165.1 x 75.6 x 8.9mm</li>
-                <li>IP Rating: IP68 (Up to 1.5m for 30 minutes)</li>
-                <li>Display Size: 6.8 inches</li>
-                <li>Resolution: QHD+ (3200x1440 pixels)</li>
-                <li>Refresh Rate: 120Hz</li>
-                <li>Chipset: Snapdragon 888 / Exynos 2100 (5nm)</li>
-                <li>RAM: 12GB / 16GB</li>
-                <li>Storage: 128GB / 256GB / 512GB</li>
-                <li>Rear Cameras: 108MP + 10MP + 12MP</li>
-                <li>Front Camera: 40MP</li>
-                <li>Battery: 5,000mAh</li>
-            </ol>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Samsung Galaxy Series | Page by [RAFII HAMIS] | All rights reserved</p>
-    </footer>
+<footer>
+    <p>Visit the official <a href="https://www.apple.com" target="_blank">Apple Website</a> to learn more about the iPhone 16 Series.</p>
+    <p>2024 RAFII. All rights reserved.</p>
+</footer>
 </body>
 </html>
+
